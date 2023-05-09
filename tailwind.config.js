@@ -16,6 +16,7 @@ module.exports = {
 			},
 			backgroundColor: {
 				primary: 'rgb(236,86,97)',
+				'primary-dark': 'rgb(231,54,66)',
 			},
 			colors: {
 				primary: 'rgb(236,86,97)',

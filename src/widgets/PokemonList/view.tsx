@@ -38,8 +38,10 @@ const Pokemons = () => {
 					  ))}
 			</div>
 			<button
-				className="bg-primary rounded-lg py-4 w-full max-w-[350px]
-				text-center text-white text-xl mt-10"
+				className="bg-primary rounded-lg py-4 w-full max-w-[350px] transition-all duration-300
+				text-center text-white text-xl mt-10 shadow-[inset_0px_-3px_0px_rgba(0,0,0,0.151333)]
+				hover:bg-primary-dark
+				"
 				onClick={incrementOffset}
 			>
 				Load more
